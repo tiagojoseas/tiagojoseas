@@ -1,4 +1,4 @@
-<img src="./banner.gif" alt="GitHub Stats" />
+<img src="./banner.png" style="border-radius:1rem"/>
 <h2 align='center'><b>Tiago Sousa @ tiagojoseas</b></h2>
 <p align='center'><b>Student at University of Minho</b></p>
 

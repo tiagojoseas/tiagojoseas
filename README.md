@@ -4,6 +4,8 @@
 #
 
 **I'm a 23 years old student Enginner of Telecomunications. Outside Tech, I love music and football. And Im also a big fan of *The Office*.**
+
+Currently working on the dissertation whose topic is “*Virtual traffic light system using cloud and fog computing models*”.
  
 [![Visitor](https://visitor-badge.laobi.icu/badge?page_id=tiagojoseas.tiagojoseas)](https://github.com/tiagojoseas) [![GitHub followers](https://img.shields.io/github/followers/tiagojoseas.svg?style=social&label=Follow)](https://github.com/tiagojoseas?tab=followers)
 

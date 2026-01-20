@@ -2,7 +2,9 @@
   
   # 👋 Hi, I'm Tiago Sousa
   
-  ### 🛰️ Telecommunications and Data Application Engineer
+  ### 🛰️ Telecommunications & Data Application Engineer
+  
+  Building reliable, high‑performance connectivity for sustainable urban mobility.
   
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tiagojoseas/)
   [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tiagojoseas@gmail.com)
@@ -16,22 +18,17 @@
 
 ## 🚀 About Me
 
-```yaml
-Name: Tiago Sousa
-Age: 25 years old
-Role: Data Application Engineer @ DTx (Digital Transformation CoLab)
-Education: Master's in Telecommunications and Informatics @ University of Minho
-Location: Porto, Portugal 🇵🇹
-Focus: Digital Transformation | Urban Mobility | 5G | Wi-Fi | MPTCP | Network Optimization
-Passions: [Music 🎸, Football ⚽]
-Current_Status: "Building sustainable mobility solutions with cutting-edge telecom"
-```
+- **Role:** Data Application Engineer @ DTx (Digital Transformation CoLab)
+- **Location:** Porto, Portugal 🇵🇹
+- **Education:** Integrated Master's in Telecommunications and Informatics @ University of Minho
+- **Focus:** Digital Transformation • Urban Mobility • 5G • Wi‑Fi • MPTCP • Network Optimization
+- **Interests:** Music 🎸 • Football ⚽ • Stranger Things • The Office
 
-💼 **Currently Working On:** Be.Neutral project - developing innovative solutions for urban mobility and decarbonization using advanced Multipath TCP protocols.
+💼 **Currently:** Be.Neutral project — developing innovative solutions for urban mobility and decarbonization using advanced Multipath TCP protocols.
 
 💡 **Fun Fact:** I've probably watched *The Office* more times than I've compiled code... *"I'm not superstitious, but I am a little stitious."* 😄
 
-📄 **[Check out my full CV here →](./cv.html)**
+📄 **[Click here to check out my full CV](./CV-Tiago_Sousa.pdf)**
 
 ---
 
@@ -40,10 +37,10 @@ Current_Status: "Building sustainable mobility solutions with cutting-edge telec
 ### 🏢 Data Application Engineer
 **DTx (Digital Transformation CoLab)** | *March 2024 - Present* | Guimarães, Portugal
 
-- 🚗 **Be.Neutral Project**: Leading telecommunications engineering efforts in partnership with University of Minho, NOS Comunicações, and CEiiA
-- 📡 **MPTCP Specialization**: Developing and implementing specialized Multipath TCP schedulers for urban mobility scenarios
-- 🔬 **Research & Validation**: Conducting simulations and real-world testing to validate protocol effectiveness in dynamic environments
-- 🎯 **Impact**: Enhancing data transmission efficiency, reliability, and adaptability in sustainable urban mobility solutions
+- 🚗 **Be.Neutral Project:** Leading telecommunications engineering efforts in partnership with University of Minho, NOS Comunicações, and CEiiA
+- 📡 **MPTCP Specialization:** Designing and implementing specialized Multipath TCP schedulers for urban mobility scenarios
+- 🔬 **Research & Validation:** Running simulations and real‑world tests to validate protocol effectiveness in dynamic environments
+- 🎯 **Impact:** Improving data transmission efficiency, reliability, and adaptability in sustainable urban mobility solutions
 
 ---
 
@@ -52,12 +49,13 @@ Current_Status: "Building sustainable mobility solutions with cutting-edge telec
 <div align="center">
 
 ### 💻 Programming Languages
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C Language](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++ Language](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
 ### 📡 Telecommunications & Networks
 ![Networking](https://img.shields.io/badge/Computer_Networks-0078D4?style=for-the-badge&logo=cisco&logoColor=white)

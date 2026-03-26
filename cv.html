@@ -5,281 +5,285 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Tiago Sousa | Resume</title>
     <link
-  rel="stylesheet"
-  type="text/css"
-  href="https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/serif.css"
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/serif.css"
     />
     <style>
-  .resume-page-container {
-    --resume-full-name-font-size: 20pt;
-    --resume-full-name-line-height: 1;
-    --resume-full-name-color: #000000;
-    --resume-full-name-font-family: "Computer Modern Serif", serif;
-    --resume-professional-title-font-size: 12pt;
-    --resume-professional-title-line-height: 1;
-    --resume-professional-title-color: #666666;
-    --resume-professional-title-font-family: "Computer Modern Serif", serif;
-    --resume-section-headers-font-size: 11pt;
-    --resume-section-headers-line-height: 1;
-    --resume-section-headers-color: #000000;
-    --resume-section-headers-font-family: "Computer Modern Serif", serif;
-    --resume-body-text-font-size: 11pt;
-    --resume-body-text-line-height: 1.2;
-    --resume-body-text-color: #666666;
-    --resume-theme-primary: #000000;
-    --resume-theme-secondary: #666666;
-    --resume-theme-accent: #1155cc;
-    --resume-theme-background: #ffffff;
-    --resume-theme-text: #000000;
-    --resume-theme-text-secondary: #666666;
-    --resume-theme-border: #cccccc;
-    box-sizing: border-box;
-    overflow: hidden;
-    position: relative;
-    width: 8.5in;
-    height: 11in;
-    background-color: var(--resume-theme-background, #fff);
-  }
+      .resume-page-container {
+        --resume-full-name-font-size: 18pt;
+        --resume-full-name-line-height: 1;
+        --resume-full-name-color: #000000;
+        --resume-full-name-font-family: "Computer Modern Serif", serif;
+        --resume-professional-title-font-size: 12pt;
+        --resume-professional-title-line-height: 1;
+        --resume-professional-title-color: #666666;
+        --resume-professional-title-font-family: "Computer Modern Serif", serif;
+        --resume-section-headers-font-size: 11pt;
+        --resume-section-headers-line-height: 1;
+        --resume-section-headers-color: #000000;
+        --resume-section-headers-font-family: "Computer Modern Serif", serif;
+        --resume-body-text-font-size: 11pt;
+        --resume-body-text-line-height: 1.2;
+        --resume-body-text-color: #666666;
+        --resume-theme-primary: #000000;
+        --resume-theme-secondary: #666666;
+        --resume-theme-accent: #1155cc;
+        --resume-theme-background: #ffffff;
+        --resume-theme-text: #000000;
+        --resume-theme-text-secondary: #666666;
+        --resume-theme-border: #cccccc;
+        box-sizing: border-box;
+        overflow: hidden;
+        position: relative;
+        width: 8.5in;
+        height: 11in;
+        background-color: var(--resume-theme-background, #fff);
+      }
 
-  .resume-container {
-    padding: 0.8cm 1.3cm 0.8cm 1.3cm;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-  }
+      .resume-container {
+        padding: 0.8cm 0.8cm 0.8cm 0.8cm;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+      }
 
-  .resume-container * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Computer Modern Serif", serif;
-    color: var(--resume-body-text-color, #000);
-    font-size: var(--resume-body-text-font-size, 11pt);
-    line-height: var(--resume-body-text-line-height, 1.3);
-    text-wrap: wrap;
-    word-wrap: break-word;
-  }
+      .resume-container * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Computer Modern Serif", serif;
+        color: var(--resume-body-text-color, #000);
+        font-size: var(--resume-body-text-font-size, 11pt);
+        line-height: var(--resume-body-text-line-height, 1.3);
+        text-wrap: wrap;
+        word-wrap: break-word;
+      }
 
-  .resume-section-heading {
-    font-size: var(--resume-section-headers-font-size, 11pt);
-    font-variant: small-caps;
-    font-weight: normal;
-    border-bottom: 1px solid #5f5d5d;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-    color: var(--resume-section-headers-color, #000);
-    line-height: var(--resume-section-headers-line-height, 1.2);
-    text-transform: uppercase;
-  }
+      .resume-section-heading {
+        font-size: var(--resume-section-headers-font-size, 11pt);
+        font-variant: small-caps;
+        font-weight: normal;
+        border-bottom: 1px solid #5f5d5d;
+        padding-bottom: 2px;
+        margin-bottom: 2px;
+        color: var(--resume-section-headers-color, #000);
+        line-height: var(--resume-section-headers-line-height, 1.2);
+        text-transform: uppercase;
+      }
 
-  #resume-template-full-name {
-    font-family: var(
-      --resume-full-name-font-family,
-      "Computer Modern Serif",
-      serif
-    );
-    font-size: var(--resume-full-name-font-size, 26pt);
-    line-height: var(--resume-full-name-line-height, 1);
-    color: var(--resume-full-name-color, #000);
-    font-weight: 400;
-    text-align: center;
-  }
+      #resume-template-full-name {
+        font-family: var(
+          --resume-full-name-font-family,
+          "Computer Modern Serif",
+          serif
+        );
+        font-size: var(--resume-full-name-font-size, 20pt);
+        line-height: var(--resume-full-name-line-height, 1);
+        color: var(--resume-full-name-color, #000);
+        font-weight: 400;
+        text-align: center;
+      }
 
-  #resume-template-contact-section {
-    text-align: center;
-    margin-bottom: 10px;
-  }
+      #resume-template-contact-section {
+        text-align: center;
+        margin-bottom: 3px;
+        margin-top: 3px;
+      }
 
-  .professional-title {
-    font-size: var(--resume-professional-title-font-size, 14pt);
-    color: var(--resume-professional-title-color, #666);
-    font-family: var(--resume-professional-title-font-family, inherit);
-    line-height: var(--resume-professional-title-line-height, 1);
-    margin-bottom: 8pt;
-    text-align: center;
-  }
+      .professional-title {
+        font-size: var(--resume-professional-title-font-size, 12pt);
+        color: var(--resume-professional-title-color, #666);
+        font-family: var(--resume-professional-title-font-family, inherit);
+        line-height: var(--resume-professional-title-line-height, 1);
+        margin-bottom: 3px;
+        margin-top: 3px;
+        text-align: center;
+      }
 
-  .contact-section-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 5px 15px;
-    margin-top: 5px;
-  }
+      .contact-section-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5px 15px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+      }
 
-  .contact-section-container a,
-  .contact-section-container span {
-    color: var(--resume-body-text-color, #000);
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 3px;
-  }
+      .contact-section-container a,
+      .contact-section-container span {
+        color: var(--resume-body-text-color, #000);
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 3px;
+      }
 
-  .contact-section-container a:hover {
-    text-decoration: underline;
-  }
+      .contact-section-container a:hover {
+        text-decoration: underline;
+      }
 
-  .contact-icon {
-    margin-right: 4px;
-    display: inline;
-    vertical-align: middle;
-  }
+      .contact-icon {
+        margin-right: 3px;
+        display: inline;
+        vertical-align: middle;
+      }
 
-  #resume-template-summary-text {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    margin-bottom: 10px;
-    text-align: justify;
-  }
+      #resume-template-summary-text {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        margin-bottom: 10px;
+        text-align: justify;
+      }
 
-  .experience-entry,
-  .project-entry,
-  .education-entry,
-  .certification-entry,
-  .custom-entry {
-    margin-bottom: 10px;
-    margin-left: 15px;
-    margin-top: 5px;
-  }
+      .experience-entry,
+      .project-entry,
+      .education-entry,
+      .certification-entry,
+      .custom-entry {
+        margin-bottom: 10px;
+        margin-left: 15px;
+        margin-top: 3px;
+      }
 
-  .skills-entry {
-    margin-left: 0;
-    margin-bottom: 5px;
-    margin-top: 5px;
-  }
+      .skills-entry {
+        margin-left: 0;
+        margin-bottom: 3px;
+        margin-top: 3px;
+      }
 
-  .experience-entry-header,
-  .education-entry-header,
-  .certification-entry-header,
-  .project-entry-header,
-  .custom-entry-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 100%;
-    margin-bottom: 3px;
-  }
+      .experience-entry-header,
+      .education-entry-header,
+      .certification-entry-header,
+      .project-entry-header,
+      .custom-entry-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        margin-bottom: 3px;
+        margin-top: 3px;
+      }
 
-  .experience-entry-main-content,
-  .education-entry-main-content,
-  .certification-entry-main-content,
-  .project-entry-main-content,
-  .custom-entry-main-content {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    gap: 1px;
-    padding-right: 10px;
-  }
+      .experience-entry-main-content,
+      .education-entry-main-content,
+      .certification-entry-main-content,
+      .project-entry-main-content,
+      .custom-entry-main-content {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        gap: 1px;
+        padding-right: 10px;
+      }
 
-  .experience-entry-meta-right,
-  .education-entry-meta-right,
-  .certification-entry-meta-right,
-  .project-entry-meta-right,
-  .custom-entry-meta-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    text-align: right;
-    margin-left: 10px;
-    flex-shrink: 0;
-    gap: 1px;
-  }
+      .experience-entry-meta-right,
+      .education-entry-meta-right,
+      .certification-entry-meta-right,
+      .project-entry-meta-right,
+      .custom-entry-meta-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        margin-left: 10px;
+        flex-shrink: 0;
+        gap: 1px;
+      }
 
-  .experience-entry-title,
-  .project-entry-title,
-  .education-entry-title,
-  .certification-entry-title,
-  .custom-entry-title {
-    font-weight: bold;
-  }
+      .experience-entry-title,
+      .project-entry-title,
+      .education-entry-title,
+      .certification-entry-title,
+      .custom-entry-title {
+        font-weight: bold;
+      }
 
-  .experience-entry-organization,
-  .education-entry-organization,
-  .certification-entry-organization,
-  .custom-entry-subheading,
-  .experience-entry-location,
-  .education-entry-location,
-  .certification-entry-location,
-  .custom-entry-location,
-  .experience-entry-dates,
-  .education-entry-dates,
-  .certification-entry-dates,
-  .custom-entry-dates {
-    font-style: italic;
-  }
+      .experience-entry-organization,
+      .education-entry-organization,
+      .certification-entry-organization,
+      .custom-entry-subheading,
+      .experience-entry-location,
+      .education-entry-location,
+      .certification-entry-location,
+      .custom-entry-location,
+      .experience-entry-dates,
+      .education-entry-dates,
+      .certification-entry-dates,
+      .custom-entry-dates {
+        font-style: italic;
+      }
 
-  .experience-entry-dates,
-  .education-entry-dates,
-  .certification-entry-dates,
-  .custom-entry-dates {
-    white-space: nowrap;
-    font-style: italic;
-  }
+      .experience-entry-dates,
+      .education-entry-dates,
+      .certification-entry-dates,
+      .custom-entry-dates {
+        white-space: nowrap;
+        font-style: italic;
+      }
 
-  .experience-entry-bullet-list,
-  .project-entry-bullet-list,
-  .education-entry-bullet-list,
-  .custom-entry-bullet-list,
-  .custom-entry-summary ul {
-    list-style: disc;
-    padding-left: 20px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-  }
+      .experience-entry-bullet-list,
+      .project-entry-bullet-list,
+      .education-entry-bullet-list,
+      .custom-entry-bullet-list,
+      .custom-entry-summary ul {
+        list-style: disc;
+        padding-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
 
-  .experience-entry-bullet-item,
-  .project-entry-bullet-item,
-  .education-entry-bullet-item,
-  .custom-entry-bullet-item,
-  .custom-entry-summary li {
-    line-height: 1.3;
-    margin-bottom: 3px;
-    text-align: justify;
-  }
+      .experience-entry-bullet-item,
+      .project-entry-bullet-item,
+      .education-entry-bullet-item,
+      .custom-entry-bullet-item,
+      .custom-entry-summary li {
+        line-height: 1.3;
+        margin-bottom: 3px;
+        text-align: justify;
+      }
 
-  .custom-entry-summary {
-    width: 100%;
-    margin-top: 5px;
-  }
+      .custom-entry-summary {
+        width: 100%;
+        margin-top: 5px;
+      }
 
-  .skills-entry-label {
-    font-weight: bold;
-    margin-right: 0.5em;
-  }
+      .skills-entry-label {
+        font-weight: bold;
+        margin-right: 0.5em;
+      }
 
-  .skills-entry-list {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-  }
+      .skills-entry-list {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+      }
 
-  .project-entry-link-wrapper a,
-  .certification-entry-link-wrapper a,
-  .custom-entry-website-link {
-    color: blue;
-    text-decoration: underline;
-    font-style: italic;
-  }
+      .project-entry-link-wrapper a,
+      .certification-entry-link-wrapper a,
+      .custom-entry-website-link {
+        color: blue;
+        text-decoration: underline;
+        font-style: italic;
+      }
 
-  .project-tech {
-    font-weight: normal;
-    color: rgb(102, 102, 102);
-    font-size: 9pt;
-  }
+      .project-tech {
+        font-weight: normal;
+        color: rgb(102, 102, 102);
+        font-size: 9pt;
+      }
 
-  *.{
-    text-align: justify;
-  }
+      *. {
+        text-align: justify;
+      }
     </style>
   </head>
   <body>
     <div class="resume-page-container" data-page-number="1">
       <div class="resume-container">
         <section id="resume-template-contact-section">
-          <h1 id="resume-template-full-name">Tiago Sousa</h1>
+          <h1 id="resume-template-full-name">Tiago José Alves de Sousa</h1>
           <div class="professional-title">
             Telecommunications and Computer Engineer
           </div>
@@ -330,11 +334,19 @@
 
         <section id="resume-template-summary-section">
           <h2 class="resume-section-heading">Summary</h2>
-            <div id="resume-template-summary-text">
+          <div id="resume-template-summary-text">
             <p>
-              Telecommunications and Computer Engineer with a comprehensive background in network systems, software development, and emerging technologies. Passionate about leveraging technical expertise to solve complex problems in digital transformation, urban mobility, and innovative communication systems. Strong foundation in both theoretical knowledge and practical application, with demonstrated ability to work effectively in collaborative environments and adapt to new challenges across the full spectrum of telecommunications and informatics engineering.
+              Telecommunications and Computer Engineer with a comprehensive
+              background in network systems, software development, and emerging
+              technologies. Passionate about leveraging technical expertise to
+              solve complex problems in digital transformation, urban mobility,
+              and innovative communication systems. Strong foundation in both
+              theoretical knowledge and practical application, with demonstrated
+              ability to work effectively in collaborative environments and
+              adapt to new challenges across the full spectrum of
+              telecommunications and informatics engineering.
             </p>
-            </div>
+          </div>
         </section>
 
         <section id="resume-template-experience-section">
@@ -356,22 +368,82 @@
             </div>
             <ul class="experience-entry-bullet-list">
               <li class="experience-entry-bullet-item">
-                Integration into the DAE (Data Application Engineering) team,
-                actively involved in the Be.Neutral project, developed in
-                collaboration with the University of Minho, NOS Comunicações,
-                and CEiiA, with the goal of advancing innovative and
-                sustainable solutions for urban mobility and decarbonization.
+                Integration into the Data Application Engineering (DAE) team
+                within the Be.Neutral project, in collaboration with University
+                of Minho, NOS Comunicações, and CEiiA, focused on sustainable
+                urban mobility. Developed a specialized scheduler based on
+                Multipath TCP, including embedded software and a Linux kernel
+                module in C, ensuring efficient and reliable communication under
+                dynamic conditions. Validated through real-world tests and ns-3
+                (with 5G-LENA in C++), with results published in IEEE and
+                presented at ComComAp Madrid.
               </li>
-                  <li class="experience-entry-bullet-item">
-                  Utilize the Multipath TCP (MPTCP) protocol to enhance communications in urban mobility settings with a specialized scheduler. This results-oriented approach ensures efficient, reliable data transmission in dynamic situations, validated through simulations and real-world testing. Published at IEEE and presented at ComComAp in Madrid:
-                  <a
-                    href="https://ieeexplore.ieee.org/document/11353196"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://ieeexplore.ieee.org/document/11353196</a
-                  >
-                  </li>
             </ul>
+          </div>
+        </section>
+
+        <section id="resume-template-publications-section">
+          <h2 class="resume-section-heading">Publications</h2>
+
+          <div class="project-entry">
+            <div class="project-entry-header">
+              <div class="project-entry-main-content">
+                <span class="project-entry-title">
+                  <a
+                    href="https://doi.org/10.1109/ComComAp68359.2025.11353196"
+                    target="_blank"
+                  >
+                    Multi-Technology Connectivity Architecture for Urban
+                    Mobility
+                  </a>
+                </span>
+                <span class="project-tech">
+                  T. Sousa et al. | IEEE ComComAp 2025
+                </span>
+              </div>
+              <div class="project-entry-meta-right">
+                <span class="project-entry-dates">2025</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-entry">
+            <div class="project-entry-header">
+              <div class="project-entry-main-content">
+                <span class="project-entry-title">
+                  <a
+                    href="https://doi.org/10.1109/ComComAp68359.2025.11353187"
+                    target="_blank"
+                  >
+                    Graph-Based Approach for HetNets Network Coverage Planning
+                    and Optimisation
+                  </a>
+                </span>
+                <span class="project-tech">
+                  J. Gomes et al. | IEEE ComComAp 2025
+                </span>
+              </div>
+              <div class="project-entry-meta-right">
+                <span class="project-entry-dates">2025</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-entry">
+            <div class="project-entry-header">
+              <div class="project-entry-main-content">
+                <span class="project-entry-title">
+                  Dynamic Multi-Technology Scheduling for Vehicular Networks
+                  Using MPTCP
+                </span>
+                <span class="project-tech">
+                  T. Sousa et al. | Under Review
+                </span>
+              </div>
+              <div class="project-entry-meta-right">
+                <span class="project-entry-dates">2026</span>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -381,8 +453,7 @@
             <div class="education-entry-header">
               <div class="education-entry-main-content">
                 <span class="education-entry-title"
-                  >Integrated Master's Degree Telecommunications and
-                  Informatics</span
+                  >Master's Degree Telecommunications and Informatics  (Software)</span
                 >
                 <span class="education-entry-organization"
                   >University of Minho</span
@@ -400,8 +471,8 @@
           <div class="skills-entry">
             <span class="skills-entry-label">Technical Skills:</span>
             <span class="skills-entry-list"
-              >Computer Networks, C, Python, Java, React, SQL, VANET, OSPF,
-              NS-3, 5G-LENA, ModemManager, QMI, Linux Kernel, .NET, Aspire,
+              >Computer Networks, C/C++, Python, Java, React, SQL, OSPF, NS-3
+              w/5G-LENA, ModemManager, QMI, Linux Kernel, .NET, Aspire,
               Next.js</span
             >
           </div>
@@ -409,9 +480,15 @@
             <span class="skills-entry-label">Professional Skills:</span>
             <span class="skills-entry-list"
               >Problem-Solving, Analytical Thinking, Communication &amp;
-              Presentation, Innovation &amp; Research Orientation,
-              Adaptability &amp; Learning, Teamwork &amp; Collaboration</span
+              Presentation, Innovation &amp; Research Orientation, Adaptability
+              &amp; Learning, Teamwork &amp; Collaboration</span
             >
+          </div>
+          <div class="skills-entry">
+            <span class="skills-entry-label">Languages:</span>
+            <span class="skills-entry-list">
+              Portuguese (Native), English (Fluent)
+            </span>
           </div>
         </section>
 
@@ -422,20 +499,26 @@
             <div class="project-entry-header">
               <div class="project-entry-main-content">
                 <span class="project-entry-title">
-                  Road Safety Supported by Proximity Computing
+                  <a
+                    href="https://github.com/tiagojoseas/Redes-Veiculares"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Road Safety Supported by Proximity Computing</a
+                  >
+
                   <span class="project-tech">| CORE, Python, VANET, OSPF</span>
                 </span>
               </div>
               <div class="project-entry-meta-right">
                 <span class="project-entry-dates">Feb 2023 - May 2023</span>
-                <span class="project-entry-link-wrapper">
+                <!-- <span class="project-entry-link-wrapper">
                   <a
                     href="https://github.com/tiagojoseas/Redes-Veiculares"
                     target="_blank"
                     rel="noopener noreferrer"
                     >Link</a
                   >
-                </span>
+                </span> -->
               </div>
             </div>
             <ul class="project-entry-bullet-list">
@@ -453,7 +536,7 @@
                 <span class="project-entry-title">
                   Meteorino
                   <span class="project-tech">
-                    | Arduino, ESP32, C, React, Python, SQL, Communication
+                    | Arduino, ESP32, C++, React, Python, SQL, Communication
                     Protocols
                   </span>
                 </span>
@@ -464,13 +547,14 @@
             </div>
             <ul class="project-entry-bullet-list">
               <li class="project-entry-bullet-item">
-                University Project managing multiple weather stations, built
-                with ESP32 boards and components for weather data collection,
-                using DHT22 (temperature and humidity) and BME280 (barometric
-                pressure and altitude) sensors. This project also includes a
-                web application for data visualization and management,
-                developed with React for the frontend and Python with Flask for
-                the backend, and a SQL database for data storage.
+                University project focused on embedded software development,
+                managing multiple weather stations built with ESP32 boards for
+                environmental data collection. The system integrates DHT22
+                (temperature and humidity) and BME280 (barometric pressure and
+                altitude) sensors. It also includes a web application for data
+                visualization and management, developed with React (frontend)
+                and Python with Flask (backend), supported by a SQL database for
+                data storage.
               </li>
             </ul>
           </div>
@@ -492,13 +576,13 @@
             </div>
             <ul class="project-entry-bullet-list">
               <li class="project-entry-bullet-item">
-                A platform to create and manage Linux images with a custom
-                Linux Kernel. This helps the developers to test a Kernel
-                without the need of installing it in their machines, with the
-                possibility of emulating an ARM architecture. This project
-                also implements the use of bridges and TAP interfaces to
-                create virtual networks between the virtual machines, and it
-                is even possible to configure NAT interfaces.
+                A platform to create and manage Linux images with a custom Linux
+                Kernel. This helps the developers to test a Kernel without the
+                need of installing it in their machines, with the possibility of
+                emulating an ARM architecture. This project also implements the
+                use of bridges and TAP interfaces to create virtual networks
+                between the virtual machines, and it is even possible to
+                configure NAT interfaces.
               </li>
             </ul>
           </div>
